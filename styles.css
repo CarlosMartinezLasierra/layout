@@ -1,0 +1,33 @@
+* {
+  border: 1px dashed blue;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.header {
+  background-color: #fabada;
+  padding: 20px;
+  flex: none;
+}
+.header__title {
+  color: red;
+}
+.main {
+  display: flex;
+  flex: 1;
+}
+.main__section {
+  flex: 2;
+  background-color: blue;
+}
+.main__aside {
+  flex: 1;
+  background-color: aquamarine;
+}
